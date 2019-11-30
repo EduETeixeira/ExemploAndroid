@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+        >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/tvDescricaoModelo"
+                android:layout_width="83dp"
+                android:layout_height="match_parent"
+                android:text="@string/strmodelo"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/itemModelo"
+                android:layout_width="47dp"
+                android:layout_height="match_parent"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvMarca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strMarcaa"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/itemMarca"
+                android:layout_width="139dp"
+                android:layout_height="match_parent"
+                android:text="TextView"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvPreco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strtvPreco"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/itemPreco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/tvEsaco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strEspaco"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/itemEspaco"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvGiga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strGb" />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.cardview.widget.CardView>

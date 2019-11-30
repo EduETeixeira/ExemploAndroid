@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CrudCel</string>
+    <string name="strhintModelo">Modelo</string>
+    <string name="strmodelo">Modelo:</string>
+    <string name="strMarca">Marca:</string>
+    <string name="hintMarca">Marca</string>
+    <string name="strMarcaa">Marca:</string>
+    <string name="strtvMarca">Marca:</string>
+    <string name="strhintpreco">Preço</string>
+    <string name="strtvPreco">Preço:</string>
+    <string name="strEspaco">Espaço:</string>
+    <string name="strGb">GB</string>
+    <string name="hintEspaco">Espaço</string>
+</resources>

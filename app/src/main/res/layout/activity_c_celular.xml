@@ -1,0 +1,78 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/tvEspaco"
+        android:layout_width="403dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/hintEspaco"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPreco" />
+
+    <Spinner
+        android:id="@+id/spinnerMarca"
+        android:layout_width="308dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMarca" />
+
+    <TextView
+        android:id="@+id/tvMarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/strtvMarca"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvModelo" />
+
+    <EditText
+        android:id="@+id/tvModelo"
+        android:layout_width="413dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/strhintModelo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="334dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="40dp"
+        android:onClick="save"
+        android:text="Salvar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEspaco"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/tvPreco"
+        android:layout_width="403dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="@string/strhintpreco"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerMarca" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
